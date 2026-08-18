@@ -41,6 +41,19 @@ nav li a:hover {
     animation: fadeup 1ms ease-in-out forwards;
 }
 
+nav li a.current {
+    opacity: 1;
+    background-color: #383c3a;
+}
+
+.image {
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+
 .container {
     margin: 0 auto;
     max-width: 1200px;
@@ -94,6 +107,16 @@ nav li a:hover {
     width: 100%;
     line-height: 1.6;
     color: #e0e0e0;
+}
+
+/* Page switching: only the .active page is shown */
+.page {
+    display: none;
+}
+
+.page.active {
+    display: block;
+    animation: fadeup 0.25s ease-in-out forwards;
 }
 
 footer {
