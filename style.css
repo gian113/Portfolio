@@ -109,6 +109,29 @@ nav li a.current {
     color: #e0e0e0;
 }
 
+.skills-list,
+.projects-list,
+.contact-list {
+    margin: 16px 0 0 0;
+    padding-left: 20px;
+    max-width: 600px;
+}
+
+.skills-list li,
+.projects-list li,
+.contact-list li {
+    margin-bottom: 8px;
+}
+
+.contact-list a {
+    color: #9ea3a8;
+    transition: color 0.2s ease;
+}
+
+.contact-list a:hover {
+    color: aliceblue;
+}
+
 /* Page switching: only the .active page is shown */
 .page {
     display: none;
